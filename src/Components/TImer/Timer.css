@@ -1,0 +1,128 @@
+.timer{
+    width: 60%;
+    /* background-color: rgba(41, 39, 39, 0.536);
+     */
+     background: linear-gradient(180deg, rgba(78, 72, 72, 0.001) 0%, rgba(82, 75, 75, 0.4) 100%);
+ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.13);
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    justify-content: center;
+
+}
+
+
+.countDown{
+    /* margin-top: 100px; */
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.countDown h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.timer{
+    
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 3px solid white; */
+    /* padding: 10px; */
+
+ 
+/* Note: backdrop-filter has minimal browser support */
+
+}
+
+.timer_in{
+ /* border: 1px solid rgba(255, 255, 255, 0.276);   */
+ margin: 5px; 
+ 
+ backdrop-filter: blur(50px); 
+ /* text-align: center;
+ vertical-align:baseline; */
+ border-radius: 20px;
+ width: 100px;
+ height: 100px;
+
+ padding:  15px  10px 0px 10px;
+}
+
+.timer_in p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.timer_in   span{
+    /* border: 1px solid black; */
+    display: block;
+    text-align: center;
+    /* padding: 2px 6px; */
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.dots{
+    position: relative;
+    top: 15px;
+    color: rgba(255, 255, 255, 0.651);
+    margin: 0 8px;
+    font-size: 40px;
+}
+
+
+@media only screen and (max-width: 580px) {
+    body {
+      margin: 0;
+      padding:0;
+    }
+    .countDown{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .timer p{
+       
+        text-align: center;
+      margin-bottom: 0;
+      font-size: 90%;
+    }
+
+
+    .timer_in{
+        width: 80px;
+        height: 80px;
+        padding: 5px 0px; 
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .timer_in span{
+        /* display: inline; */
+        margin-top: -6px;
+        font-size: 11px;
+        /* display: none; */
+    }
+    .dots{
+        margin: 2px;
+        font-size: 30px;
+    }
+
+    .countDown h2{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width: 750px){
+    .timer {
+    width: 90%;
+    }
+  }

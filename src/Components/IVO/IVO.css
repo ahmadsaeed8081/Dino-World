@@ -1,0 +1,456 @@
+.main_section{
+    background-image: url('./images/backGround.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 100vh;; */
+    margin: 0 auto;
+    padding: 1rem 0;
+    background-attachment: fixed;
+
+}
+
+
+
+.participation{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 70%;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: white;
+
+}
+
+.participation .amount , .participation .person{
+    border: 2px solid rgba(0, 0, 0, 0.353);
+    width: 45%;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background-color: rgba(49, 47, 47, 0.481);
+    text-align: center;
+}
+
+
+
+.rules_div{
+
+    background-color: rgba(45, 45, 44, 0.511);
+    color: white;
+    width: 60%;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 20px;
+
+}
+
+.rule_box_1{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 0 1rem;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.468);
+}
+
+.rule_box_1 input{
+    height: 100%;
+    width: 50%;
+    margin: 0 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 2rem;
+    background-color: rgba(255, 255, 255, 0.468);
+}
+
+
+.rule_box_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 1rem auto;
+    /* margin-top: 1rem; */
+    
+
+
+}
+.rule_box_2 h1{
+    background-color: rgba(250, 235, 215, 0.118);
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+
+}
+
+
+.click a{
+text-decoration: none;
+padding: 1rem 40%;
+border-radius: 20px;
+font-size: 1.3rem;
+color: goldenrod;
+font-weight: bold;
+width: 75%;
+background-color: rgba(255, 255, 255, 0.822);
+}
+
+.rule_price{
+    text-align: left;
+    width: 80%;
+    font-weight: 600;
+    margin: 2rem auto;
+}
+
+
+
+.rule_common_div{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 2rem auto;
+    font-weight: bold;
+    
+}
+
+.rule_common_div .text{
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.rule_common_div .number{
+    width: 10%;
+}
+
+.rule_common_div .btn a{
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.822);
+    color: goldenrod;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.rules{
+    width: 80%;
+    text-align: left;
+    margin: 2rem auto;
+
+    /* white-space: nowrap; */
+}
+
+.rules span{
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-right: 0.4rem;
+}
+
+.rules p{
+    margin: 0;
+}
+
+.referals_div{
+
+    
+    background-color: rgba(37, 35, 35, 0.379);
+    width: 60%;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+.scale_div{
+    /* border: 2px solid black; */
+    width: 60%;
+    margin: 2rem auto;
+
+}
+
+.scale_inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.scale_inner .scale{
+    width: 60%;
+    padding: 1rem 2rem ;
+    margin-right: 1rem;
+    background-color: rgba(255, 255, 255, 0.777); 
+    border-radius: 20px;
+}
+
+.scale_inner .rating{
+    font-size: 1.5rem;
+}
+
+
+.details_div{
+    background-color: rgba(36, 34, 34, 0.54);
+    width: 70%;
+    margin: 2rem auto;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.details_inner{
+    border: 2px solid rgba(255, 255, 255, 0.67);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* padding: 2rem; */
+}
+
+.last_line{
+    margin-bottom: 4rem;
+    margin-top: 1.4rem;
+}
+
+
+.details_steps{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2rem;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+
+.details_link{
+    /* border: 2px solid black; */
+    text-align: left;
+}
+.details_link ul{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: -2rem; */
+    width: 90%;
+}
+.details_link ul li{
+    display: inline-block;
+    font-size: 1.2rem;
+    /* margin-right: 4.5rem; */
+}
+
+
+.last_div{
+    background-color: rgba(56, 55, 55, 0.43);
+    color: white;
+    border-radius: 20px;
+    width: 60%;
+    margin: 2rem auto;
+    /* text-align: center; */
+}
+
+.last_div .rules{
+    width: 95%;
+    padding: 1rem 2rem;
+
+}
+
+
+.my_nft{
+    width: 60%;
+    border: 2px solid rgba(60, 56, 56, 0.334);
+    color:  white;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.266);
+    border-radius: 20px;
+    padding: 0 1rem;
+}
+
+.my_nft .contract{
+    font-size: 1.2rem;
+    margin: 0 3rem;
+}
+.my_nft .address{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+
+    .participation{
+        width: 95%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .participation .amount , .participation .person{
+        font-size: 1rem;
+        width: 47%;
+    }
+
+    .rules_div{
+        width: 95%;
+
+    }
+
+    .referals_div{
+        width: 95%;
+    }
+
+    .details_div{
+        width: 95%;
+    }
+
+    .my_nft{
+        width: 95%;
+        font-size: 1rem;
+
+    }
+
+    .my_nft .contract{
+        font-size: 0.9rem;
+        margin: 0 1rem;
+        margin-left: 1rem;
+        white-space: nowrap;
+    }
+    .my_nft .address{
+        font-size: 1rem;
+    }
+    
+
+    .last_div{
+        width: 95%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .last_div .rules{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .my_nft{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+       }
+       .my_nft h1 , .my_nft h2{
+        margin-top: 1rem;
+       }
+    
+  }
+
+
+
+
+  @media only screen and (max-width: 500px) {
+    .participation{
+        padding: 0;
+        margin: 2rem auto;
+    }
+
+    .participation .amount , .participation .person{
+        font-size: 0.7rem;
+        width: 45%;
+    }
+
+
+    .rule_box_1 {
+        width: 90%;
+        font-size: 0.7rem;
+    }
+
+    .rule_box_2{
+        font-size: 1rem;
+        width: 90%;
+    }
+
+     .rule_box_2 h1{
+        font-size: 1rem;
+
+     }
+
+   .rule_price{
+    font-size: 0.8rem;
+    width: 90%;
+   }
+   .rule_common_div{
+    font-size: 0.8rem;
+    width: 90%;
+   }
+
+   .rule_common_div .text{
+    font-size: 1.2rem;
+    width: 60%;
+   }
+
+   .rules{
+    width: 90%;
+   }
+   .rules h1{
+    margin-bottom: 0;
+    font-size: 1rem;
+   }
+
+   .rules span{
+    font-size: 1rem;
+   }
+   .rules p{
+    margin-bottom: 1rem;
+   }
+
+
+   .scale_div{
+    width: 90%;
+
+   }
+
+   .scale_div h2{
+    font-size: 1.3rem;
+   }
+   
+   .details_div .step{
+    font-size: 0.7rem;
+   }
+
+   .details_div ul{
+    width: 95%;
+    padding: 0;
+    padding-left: 0.2rem;
+    /* margin: 0 auto; */
+    /* font-size: 0.5rem; */
+   }
+   .details_link ul li{
+   font-size: 0.7rem;
+   }
+
+   .my_nft{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    /* padding: 0 1rem; */
+   }
+   .my_nft h1 , .my_nft h2{
+    margin-top: 0;
+   }
+
+   .my_nft .address{
+    font-size: 0.7rem;
+   }
+
+  }
+
+
